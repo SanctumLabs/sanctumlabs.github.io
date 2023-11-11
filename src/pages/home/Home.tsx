@@ -1,10 +1,10 @@
+import LandingLayout from '../../layouts/landing';
+
 const Home = () => {
     return (
-        <>
-            <div className="bg-gradient3">
-                Welcome home
-            </div>
-        </>
+        <LandingLayout>
+            <div className="bg-gradient3">Welcome home</div>
+        </LandingLayout>
     );
 };
 
