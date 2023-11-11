@@ -7449,6 +7449,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"feather-icons-react@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "feather-icons-react@npm:0.6.2"
+  peerDependencies:
+    react: ">= 16.8.4"
+  checksum: f79a750e4e67e136188bb13325050f20ec03c11cf90ef5f6a691acddf76bfdebc45a472e1bc56ed282ab7bb11614ca6500ffbb1cf5704e7f5cd529e241337e19
+  languageName: node
+  linkType: hard
+
 "file-entry-cache@npm:^6.0.1":
   version: 6.0.1
   resolution: "file-entry-cache@npm:6.0.1"
@@ -13884,7 +13893,9 @@ __metadata:
     aos: "npm:^2.3.4"
     axios: "npm:^1.6.1"
     bootstrap: "npm:^5.3.2"
+    classnames: "npm:^2.3.2"
     danger: "npm:^11.3.0"
+    feather-icons-react: "npm:^0.6.2"
     i18next: "npm:^23.6.0"
     i18next-browser-languagedetector: "npm:^7.1.0"
     jest: "npm:^29.7.0"
