@@ -21,7 +21,12 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@pages/*": ["pages/*"]
+      "@pages/*": ["pages/*"],
+      "@layouts/*": ["layouts/*"],
+      "@components/*": ["components/*"],
+      "@assets/*": ["assets/*"],
+      "@images/*": ["assets/images/*"],
+      "@styles/*": ["assets/scss/*"]
     }
   },
   "include": [
