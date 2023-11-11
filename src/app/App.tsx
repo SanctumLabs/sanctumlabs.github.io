@@ -1,23 +1,25 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import Aos from 'aos';
+import AllRoutes from 'routes';
 
-class App extends Component {
-  render() {
-    return (
+// Themes
+//  For Default import Theme.scss
+import '../assets/scss/theme.scss';
+
+const App = () => {
+  // reference https://github.com/michalsnik/aos
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
+  return (
     <React.StrictMode>
       <BrowserRouter>
-        <div className="App">
-          <div className="App-header">
-            <h2>Welcome to React</h2>
-          </div>
-          <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
-        </div>
+        <AllRoutes />
       </BrowserRouter>
     </React.StrictMode>
-    );
-  }
+  );
 }
 
 export default App;
