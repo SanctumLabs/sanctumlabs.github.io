@@ -1,9 +1,14 @@
 import LandingLayout from '../../layouts/landing';
+import Services from './sections/services';
+import Portfolio from './sections/portfolio';
+// TODO: fetch from CMS API
+import { projects, services } from './data';
 
 const Home = () => {
     return (
         <LandingLayout>
-            <div className="bg-gradient3">Welcome home</div>
+            <Services services={services} />
+            <Portfolio portfolios={projects} />
         </LandingLayout>
     );
 };
