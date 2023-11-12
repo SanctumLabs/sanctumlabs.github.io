@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import FeatherIcon from 'feather-icons-react';
 
-// images
-import Logo from 'assets/images/logo.png';
+import Logo from 'assets/images/logo.svg';
 
 const Footer = () => {
     return (
@@ -14,7 +13,7 @@ const Footer = () => {
                         {/* TODO: update page address */}
                         <div className="me-5">
                             <Link to="#" className="navbar-brand me-lg-4 me-auto">
-                                <img src={Logo} alt="logo" height="30" className="d-inline-block align-top" />
+                                <img src={Logo} alt="logo" height="50" className="d-inline-block align-top" />
                             </Link>
                             {/* <p className="mt-4">300 Park Avenue, 12th Floor New York, NY 10022</p>
                             <p className="mb-5">1499 Burwell Heights Road Port Arthur Meadow Nashville, TX 77642</p> */}

@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import classNames from 'classnames';
 // images
-import logo from 'assets/images/logo.png';
-import logoLight from 'assets/images/logo-light.png';
+import logo from 'assets/images/logo.svg';
+import Menu from 'components/menu';
 
 type NavbarProps = {
     isSticky?: boolean;
@@ -47,8 +48,9 @@ const NavBar = ({ isSticky, navClass, buttonClass, fixedWidth, hideSearch }: Nav
             >
                 <Container fluid={!fixedWidth}>
                     <Navbar.Brand href="/" className="logo">
-                        <img src={logo} height="30" className="align-top logo-dark" alt="" />
-                        <img src={logoLight} height="30" className="align-top logo-light" alt="" />
+                        <NavLink to="/">
+                            <img src={logo} height="30" className="align-top logo-dark" alt="" />
+                        </NavLink>
                     </Navbar.Brand>
 
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -71,12 +73,11 @@ const NavBar = ({ isSticky, navClass, buttonClass, fixedWidth, hideSearch }: Nav
                                 </Nav.Item>
                             </Nav>
                         )}
-                        {/* <Menu
+                        <Menu
                             showDownload
-                            loggedInUser={loggedInUser}
                             navClass="ms-auto"
                             buttonClass={buttonClass ? buttonClass : 'btn-primary'}
-                        /> */}
+                        />
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

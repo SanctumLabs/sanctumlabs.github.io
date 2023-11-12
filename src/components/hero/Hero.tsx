@@ -28,7 +28,7 @@ const Hero = () => {
                         </div>
                         <h1 className="hero-title fw-medium">
                             We design user experiences that{' '}
-                            <span className="highlight highlight-warning d-inline-block">works</span>
+                            <span className="highlight highlight-warning d-inline-block">work</span>
                         </h1>
 
                         <p className="mt-4 fs-18 mb-3 mb-sm-6 w-75">
