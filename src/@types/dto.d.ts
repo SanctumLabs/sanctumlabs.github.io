@@ -10,3 +10,9 @@ declare type Project = {
     description: string;
     image: string;
 }
+
+declare type Client = {
+    title: string;
+    link: string;
+    icon: string;
+}

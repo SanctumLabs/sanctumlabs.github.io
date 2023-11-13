@@ -1,5 +1,11 @@
 import ProjectImg1 from 'assets/images/features/agency1.jpg';
 import ProjectImg2 from 'assets/images/features/agency2.jpg';
+// images
+import amazon from 'assets/images/brands/amazon.svg';
+import google from 'assets/images/brands/google.svg';
+import paypal from 'assets/images/brands/paypal.svg';
+import spotify from 'assets/images/brands/spotify.svg';
+import shopify from 'assets/images/brands/shopify.svg';
 
 const services: Service[] = [
     {
@@ -48,5 +54,33 @@ const projects: Project[] = [
     },
 ];
 
+const clients: Client[] = [
+    {
+        title: 'Amazon',
+        link: 'https://amazon.com',
+        icon: amazon
+    },
+    {
+        title: 'Google',
+        link: 'https://google.com',
+        icon: google
+    },
+    {
+        title: 'PayPal',
+        link: 'https://paypal.com',
+        icon: paypal
+    },
+    {
+        title: 'Spotify',
+        link: 'https://spotify.com',
+        icon: spotify
+    },
+    {
+        title: 'Shopify',
+        link: 'https://shopify.com',
+        icon: shopify
+    },
+]
 
-export { services, projects }
+
+export { services, projects, clients }
