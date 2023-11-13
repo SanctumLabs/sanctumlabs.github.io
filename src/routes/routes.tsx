@@ -1,9 +1,10 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 import LoadComponent from 'components/loadcomponent';
-import { HOME_PAGE_ROUTE, LANDING_PAGE_ROUTE } from './constants';
+import { COMPANY_PAGE_ROUTE, HOME_PAGE_ROUTE, LANDING_PAGE_ROUTE } from './constants';
 
-const Home = lazy(() => import('../pages/home'));
+const Company = lazy(() => import('pages/company'));
+const Home = lazy(() => import('pages/home'));
 
 type PageRoute = {
     title: string;
@@ -20,6 +21,11 @@ const miscRoutes: PageRoute[] = [
         title: 'Home',
         path: HOME_PAGE_ROUTE,
         element: <LoadComponent component={Home} />,
+    },
+    {
+        title: 'Company',
+        path: COMPANY_PAGE_ROUTE,
+        element: <LoadComponent component={Company} />,
     },
 ];
 
