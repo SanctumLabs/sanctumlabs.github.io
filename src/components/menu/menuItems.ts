@@ -7,8 +7,8 @@ import {
     COMPANY_PAGE_TITLE,
     CONTACT_PAGE_BASE_ROUTE,
     CONTACT_PAGE_TITLE,
-    FAQ_PAGE_ROUTE,
-    FAQ_PAGE_TITLE,
+    HELP_DESK_PAGE_ROUTE,
+    HELP_DESK_PAGE_TITLE,
     HOME_PAGE_TITLE,
     LANDING_PAGE_ROUTE,
     PORTFOLIO_PAGE_BASE_ROUTE,
@@ -49,8 +49,8 @@ const informationMenuItems: MenuItem[] = [
         link: ABOUT_US_PAGE_ROUTE,
     },
     {
-        name: FAQ_PAGE_TITLE,
-        link: FAQ_PAGE_ROUTE
+        name: HELP_DESK_PAGE_TITLE,
+        link: HELP_DESK_PAGE_ROUTE
     }
 ]
 

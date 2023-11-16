@@ -39,3 +39,5 @@ export const PRIVACY_POLICY_PAGE_ROUTE = `${INFORMATION_BASE_ROUTE}/privacy-poli
 export const FAQ_PAGE_TITLE = `FAQs`;
 export const FAQ_PAGE_ROUTE = `${INFORMATION_BASE_ROUTE}/faqs`;
 
+export const HELP_DESK_PAGE_TITLE = `Help Desk`;
+export const HELP_DESK_PAGE_ROUTE = `${INFORMATION_BASE_ROUTE}/helpdesk`;

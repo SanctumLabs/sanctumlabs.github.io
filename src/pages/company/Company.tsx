@@ -1,5 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import LandingLayout from 'layouts/landing';
+import MainLayout from 'layouts/main';
 import CompanyHero, { Hero } from './sections/hero';
 import About from './sections/about';
 
@@ -10,7 +10,7 @@ import coworking from 'assets/images/hero/coworking2.jpg';
 
 const Company = () => {
     return (
-        <LandingLayout
+        <MainLayout
             hero={
                 <CompanyHero
                     title={<Hero.Title />}
@@ -46,7 +46,7 @@ const Company = () => {
                     </>
                 }
             />
-        </LandingLayout>
+        </MainLayout>
     );
 };
 
