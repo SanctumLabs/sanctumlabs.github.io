@@ -13404,14 +13404,14 @@ __metadata:
   linkType: hard
 
 "react-scroll-parallax@npm:^3.4.3":
-  version: 3.4.3
-  resolution: "react-scroll-parallax@npm:3.4.3"
+  version: 3.4.4
+  resolution: "react-scroll-parallax@npm:3.4.4"
   dependencies:
-    parallax-controller: "npm:^1.7.0"
+    parallax-controller: ^1.7.0
   peerDependencies:
     react: ^16.8.0-0 || >=17.0.1 || ^18.0.0
     react-dom: ^16.8.0-0 || >=17.0.1 || ^18.0.0
-  checksum: 3d1a56badde61bb8fb49d359e8dd2e572ecff25c53544f7d5d212728dcddc856177b63746a36d748762fc1c0e6c7b41340a7a9ae1cf799c2af43f20ab0a7b2b7
+  checksum: e75bb67b76fe6b9590ac48aa20977ba2712d46b5dc808386f7cbd0eb2a8d0f94c64a8669dc13e6245cf3cfc63f3b6f28128f37d5d69a076f1410339238ee452d
   languageName: node
   linkType: hard
 
