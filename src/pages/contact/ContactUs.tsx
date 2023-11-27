@@ -6,7 +6,7 @@ import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import FeatherIcon from 'feather-icons-react';
 import { FormInput } from 'components/form';
-import LandingLayout from 'layouts/landing';
+import MainLayout from 'layouts/main';
 import ContactHero from './hero';
 
 const ContactUs = () => {
@@ -33,7 +33,7 @@ const ContactUs = () => {
     const onSubmit = () => {};
 
     return (
-        <LandingLayout hero={<ContactHero />} heroClassNames='header-7 bg-gradient2'>
+        <MainLayout hero={<ContactHero />} heroClassNames='header-7 bg-gradient2'>
             <section className="section pb-lg-7 py-4 position-relative">
                 <Container>
                     <Row className="align-items-center">
@@ -161,7 +161,7 @@ const ContactUs = () => {
                     </Row>
                 </Container>
             </section>
-        </LandingLayout>
+        </MainLayout>
     );
 };
 

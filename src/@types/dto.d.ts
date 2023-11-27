@@ -17,12 +17,7 @@ declare type Client = {
     icon: string;
 }
 
-declare type BlogPost = {
-    heading: string;
-    img: string;
-    time: string;
-    title: string;
-    description: string;
-    link: string;
-    tag: string;
+declare type Faq = {
+    question: string;
+    answer: string;
 }

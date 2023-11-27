@@ -1,4 +1,4 @@
-import LandingLayout from '../../layouts/landing';
+import MainLayout from 'layouts/main';
 import Services from './sections/services';
 import Portfolio from './sections/portfolio';
 import Clients from './sections/clients';
@@ -8,12 +8,12 @@ import Blog from './sections/blog';
 
 const Home = () => {
     return (
-        <LandingLayout>
+        <MainLayout>
             <Services services={services} />
             <Portfolio portfolios={projects} />
             <Clients brands={clients} />
             <Blog blogs={blogPosts} />
-        </LandingLayout>
+        </MainLayout>
     );
 };
 
