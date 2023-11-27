@@ -1,5 +1,5 @@
-import { Nav, Dropdown, Row, Col } from 'react-bootstrap';
-import { NavLink, Link, useLocation } from 'react-router-dom';
+import { Nav, Dropdown } from 'react-bootstrap';
+import { NavLink, useLocation } from 'react-router-dom';
 import FeatherIcon from 'feather-icons-react';
 import classNames from 'classnames';
 import menuItems, { informationMenuItems } from './menuItems';

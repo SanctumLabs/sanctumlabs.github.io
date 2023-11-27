@@ -2,6 +2,8 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 import LoadComponent from 'components/loadcomponent';
 import {
+    BLOG_PAGE_BASE_ROUTE,
+    BLOG_PAGE_TITLE,
     COMPANY_PAGE_ROUTE,
     COMPANY_PAGE_TITLE,
     CONTACT_PAGE_BASE_ROUTE,
@@ -18,11 +20,29 @@ const Home = lazy(() => import('pages/home'));
 const Company = lazy(() => import('pages/company'));
 const ContactUs = lazy(() => import('pages/contact'));
 const HelpDesk = lazy(() => import('pages/information/helpdesk'));
+const Blog = lazy(() => import("pages/blog"))
 
 type PageRoute = {
     title: string;
     isPrivate?: boolean;
 } & RouteObject;
+
+const blogRoutes: PageRoute[] = [
+    {
+        title: BLOG_PAGE_TITLE,
+        path: BLOG_PAGE_BASE_ROUTE,
+        children: [
+            {
+                path: '',
+                element: <LoadComponent component={Blog} />
+            },
+            // {
+            //     path: '<blog-id>',
+            //     element: <LoadComponent />
+            // }
+        ]
+    }
+]
 
 const miscRoutes: PageRoute[] = [
     {
@@ -57,4 +77,4 @@ const miscRoutes: PageRoute[] = [
     }
 ];
 
-export default [...miscRoutes];
+export default [...miscRoutes, ...blogRoutes];
