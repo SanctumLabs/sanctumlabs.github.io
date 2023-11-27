@@ -2,10 +2,11 @@ import { Col, Container, Row } from 'react-bootstrap';
 import MainLayout from 'layouts/main';
 import HelpDeskHero from './HelpDeskHero';
 import FaqHelpLinks from './HelpLinks';
+import SupportCenter from './SupportCenter';
+import FAQs from './FAQs';
 
 // dummy data
 import { helpLinks } from './data';
-import SupportCenter from './SupportCenter';
 
 const HelpDesk = () => {
     return (
@@ -15,7 +16,7 @@ const HelpDesk = () => {
                     <Row>
                         <Col lg={8}>
                             <FaqHelpLinks helpLinks={helpLinks} />
-                            {/* <FAQs /> */}
+                            <FAQs />
                         </Col>
                         <Col lg={4}>
                             <SupportCenter />

@@ -16,3 +16,8 @@ declare type Client = {
     link: string;
     icon: string;
 }
+
+declare type Faq = {
+    question: string;
+    answer: string;
+}
