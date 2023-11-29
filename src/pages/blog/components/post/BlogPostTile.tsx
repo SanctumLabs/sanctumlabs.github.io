@@ -17,7 +17,7 @@ const BlogPostTile :FC<BlogPostProps> = ({ post }) => {
 
                 <div className="card-overlay-bottom">
                     <h2>
-                        <Link to="/pages/blog/post" className="text-white">
+                        <Link to={`/blog/${post.slug}`} className="text-white">
                             {post.title}
                         </Link>
                     </h2>

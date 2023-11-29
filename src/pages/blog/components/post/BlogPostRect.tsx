@@ -20,19 +20,19 @@ const BlogPostRect: FC<BlogPostProps> = ({ post }) => {
                         </Link>
 
                         <h3 className="mt-1 fw-semibold">
-                            <Link to={`/pages/blog/${post.slug}`}>{post.title}</Link>
+                            <Link to={`/blog/${post.slug}`}>{post.title}</Link>
                         </h3>
 
                         <p className="text-muted">
                             {post.description}{' '}
-                            <Link to={`/pages/blog/${post.slug}`} className="text-primary">
+                            <Link to={`/blog/${post.slug}`} className="text-primary">
                                 read more
                             </Link>
                         </p>
 
                         <div className="mt-auto">
                             <div className="d-flex">
-                                <img className="me-2 rounded-sm" src={post.postedBy!.avatar} alt="" height="36" />
+                                <img className="me-2 rounded-sm" src={post.postedBy!.avatarUrl} alt="" height="36" />
                                 <div className="flex-grow-1">
                                     <h6 className="m-0 fs-13">
                                         <Link to="#">{post.postedBy!.name}</Link>

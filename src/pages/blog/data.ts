@@ -22,7 +22,7 @@ const posts: Post[] = [
         description:
             'We are glad to announce that, we are going to upgrade all the subscribed accounts with the premium features this week...',
         postedBy: {
-            avatar: avatar1,
+            avatarUrl: avatar1,
             name: 'Emily Blunt',
         },
         postedOn: {
@@ -42,7 +42,7 @@ const posts: Post[] = [
         description:
             'The web is changed in the current era a lot. Many new trends are being used in the market at the moment...',
         postedBy: {
-            avatar: avatar2,
+            avatarUrl: avatar2,
             name: 'Greeva N',
         },
         postedOn: {
@@ -62,7 +62,7 @@ const posts: Post[] = [
         description:
             'Introducing the blazzing fast user interface. The new UI is fast, secure and most user friendly...',
         postedBy: {
-            avatar: avatar2,
+            avatarUrl: avatar2,
             name: 'Greeva N',
         },
         postedOn: {
@@ -82,7 +82,7 @@ const posts: Post[] = [
         description:
             'We are giving a pretty extensive guideline and context before you make your decision to consider prompt...',
         postedBy: {
-            avatar: avatar2,
+            avatarUrl: avatar2,
             name: 'Greeva N',
         },
         postedOn: {
@@ -102,7 +102,7 @@ const posts: Post[] = [
         description:
             'Explore a latest guideline for creating a successful online sales campaign using google adwords or facebook ads...',
         postedBy: {
-            avatar: avatar2,
+            avatarUrl: avatar2,
             name: 'Greeva N',
         },
         postedOn: {
@@ -121,7 +121,7 @@ const posts: Post[] = [
         title: 'Top 10 ideas to improve the team productivity',
         groupAvatars: [avatar3, avatar1, avatar2],
         postedBy: {
-            avatar: avatar2,
+            avatarUrl: avatar2,
             name: 'Greeva N',
         },
         postedOn: {
@@ -135,27 +135,33 @@ const posts: Post[] = [
 const tags: Tag[] = [
     {
         id: '1',
-        name: 'Business'
+        name: 'Business',
+        slug: 'business'
     },
     {
         id: '2',
-        name: 'Community'
+        name: 'Community',
+        slug: 'community'
     },
     {
         id: '3',
-        name: 'Announcement'
+        name: 'Announcement',
+        slug: 'announcement'
     },
     {
         id: '4',
-        name: 'Tutorials'
+        name: 'Tutorials',
+        slug: 'tutorials'
     },
     {
         id: '5',
-        name: 'Resources'
+        name: 'Resources',
+        slug: 'resources'
     },
     {
         id: '6',
-        name: 'Interview'
+        name: 'Interview',
+        slug: 'interviews'
     },
 ]
 

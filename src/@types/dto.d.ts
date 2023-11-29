@@ -25,22 +25,27 @@ declare type Faq = {
 declare type Tag = {
     id: string;
     name: string;
+    slug: string;
+}
+
+declare type Image = {
+    url: string;
+    alt: string;
+}
+
+declare type PostAuthor = {
+    avatarUrl: string;
+    name: string;
 }
 
 declare type Post = {
     id: string;
-    image: {
-        url: string;
-        alt: string;
-    };
+    image: Image;
     tag: { variant: string; value: string };
     title: string;
     description?: string;
     slug: string;
-    postedBy?: {
-        avatar: string;
-        name: string;
-    };
+    postedBy?: PostAuthor;
     postedOn?: {
         date: string;
         time: string;

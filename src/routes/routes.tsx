@@ -21,6 +21,8 @@ const Company = lazy(() => import('pages/company'));
 const ContactUs = lazy(() => import('pages/contact'));
 const HelpDesk = lazy(() => import('pages/information/helpdesk'));
 const Blog = lazy(() => import("pages/blog"))
+const BlogPost = lazy(() => import("pages/blogpost"))
+
 
 type PageRoute = {
     title: string;
@@ -36,10 +38,10 @@ const blogRoutes: PageRoute[] = [
                 path: '',
                 element: <LoadComponent component={Blog} />
             },
-            // {
-            //     path: '<slug>',
-            //     element: <LoadComponent />
-            // }
+            {
+                path: ':slug',
+                element: <LoadComponent component={BlogPost} />
+            }
         ]
     }
 ]

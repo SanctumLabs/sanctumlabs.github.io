@@ -18,12 +18,12 @@ const BlogPostSquare: FC<BlogPostProps> = ({ post }) => {
             </div>
 
             <h4 className="fw-semibold mt-1">
-                <Link to={`/blog/post/${post.slug}`}>{post.title}</Link>
+                <Link to={`/blog/${post.slug}`}>{post.title}</Link>
             </h4>
 
             <p className="text-muted">
                 {post.description}{' '}
-                <Link to={`/blog/post/${post.slug}`} className="text-primary">
+                <Link to={`/blog/${post.slug}`} className="text-primary">
                     read more
                 </Link>
             </p>
