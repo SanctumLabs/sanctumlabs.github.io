@@ -37,7 +37,7 @@ const blogRoutes: PageRoute[] = [
                 element: <LoadComponent component={Blog} />
             },
             // {
-            //     path: '<blog-id>',
+            //     path: '<slug>',
             //     element: <LoadComponent />
             // }
         ]

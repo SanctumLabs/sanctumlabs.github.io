@@ -29,6 +29,9 @@ export const CONTACT_PAGE_BASE_ROUTE = `${BASE_ROUTE}/contact`;
 export const BLOG_PAGE_TITLE = `Blog`;
 export const BLOG_PAGE_BASE_ROUTE = `${BASE_ROUTE}/blog`;
 
+export const BLOG_POST_PAGE_TITLE = `Blog`;
+export const BLOG_POST_PAGE_BASE_ROUTE = `${BLOG_PAGE_BASE_ROUTE}/<slug>`;
+
 export const INFORMATION_PAGE_TITLE = `Information`;
 export const INFORMATION_BASE_ROUTE = `${BASE_ROUTE}/information`;
 

@@ -1,4 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import MainLayout from 'layouts/main';
 import BlogHero from './sections/hero';
 import Tags from './components/tags';
@@ -35,7 +36,7 @@ const Blog = () => {
                                 {/* TODO: featured post and subscription form */}
                                 {/* <Row data-aos="fade-up" data-aos-duration="300">
                                     <Col lg={8}>
-                                        <BlogPost1 post={post1[0]} />
+                                        <BlogPostRect post={post1[0]} />
                                     </Col>
 
                                     <Col lg={4}>
@@ -52,6 +53,21 @@ const Blog = () => {
                                 </Row>
                             </Col>
                         </Row>
+
+                        {/* Pagination */}
+                        <Row className="mt-5">
+                                <Col lg={12}>
+                                    <div className="d-flex align-items-center justify-content-center">
+                                        <Link className="btn btn-sm btn-white" to="#">
+                                            <i className="icon icon-xxs icon-left-arrow me-2"></i>
+                                            Previous
+                                        </Link>
+                                        <Link className="btn btn-sm btn-white ms-2" to="#">
+                                            Next<i className="icon-xxs icon-right-arrow ms-2"></i>
+                                        </Link>
+                                    </div>
+                                </Col>
+                            </Row>
                     </Container>
                 </section>
             </MainLayout>

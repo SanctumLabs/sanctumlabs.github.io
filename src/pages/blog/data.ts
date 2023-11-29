@@ -61,6 +61,14 @@ const posts: Post[] = [
         title: 'Introducing new blazzing fast user interface',
         description:
             'Introducing the blazzing fast user interface. The new UI is fast, secure and most user friendly...',
+        postedBy: {
+            avatar: avatar2,
+            name: 'Greeva N',
+        },
+        postedOn: {
+            date: '11 Mar, 2020',
+            time: '3 min read',
+        },
     },
     {
         id: '4',
@@ -73,6 +81,14 @@ const posts: Post[] = [
         title: 'What you should know before considering the prompt',
         description:
             'We are giving a pretty extensive guideline and context before you make your decision to consider prompt...',
+        postedBy: {
+            avatar: avatar2,
+            name: 'Greeva N',
+        },
+        postedOn: {
+            date: '11 Mar, 2020',
+            time: '3 min read',
+        },
     },
     {
         id: '5',
@@ -85,6 +101,14 @@ const posts: Post[] = [
         title: 'Your Way to a Successful Sales Campaigns',
         description:
             'Explore a latest guideline for creating a successful online sales campaign using google adwords or facebook ads...',
+        postedBy: {
+            avatar: avatar2,
+            name: 'Greeva N',
+        },
+        postedOn: {
+            date: '11 Mar, 2020',
+            time: '3 min read',
+        },
     },
     {
         id: '6',
@@ -96,6 +120,14 @@ const posts: Post[] = [
         tag: { variant: 'danger', value: 'Resource' },
         title: 'Top 10 ideas to improve the team productivity',
         groupAvatars: [avatar3, avatar1, avatar2],
+        postedBy: {
+            avatar: avatar2,
+            name: 'Greeva N',
+        },
+        postedOn: {
+            date: '11 Mar, 2020',
+            time: '3 min read',
+        },
     },
 ];
 
@@ -116,7 +148,7 @@ const tags: Tag[] = [
     {
         id: '4',
         name: 'Tutorials'
-    },    
+    },
     {
         id: '5',
         name: 'Resources'
