@@ -26,22 +26,22 @@ const Footer = () => {
                                     <h5 className="text-dark mb-4 fw-semibold">About</h5>
                                     <ul className="list-unstyled">
                                         <li className="my-2">
-                                            <Link to="#" className="text-muted">
+                                            <Link to="/" className="text-muted">
                                                 Home
                                             </Link>
                                         </li>
                                         <li className="my-2">
-                                            <Link to="#" className="text-muted">
+                                            <Link to="/portfolio" className="text-muted">
                                                 Portfolio
                                             </Link>
                                         </li>
                                         <li className="my-2">
-                                            <Link to="#" className="text-muted">
+                                            <Link to="/resources" className="text-muted">
                                                 Resources
                                             </Link>
                                         </li>
                                         <li className="my-2">
-                                            <Link to="#" className="text-muted">
+                                            <Link to="/blog" className="text-muted">
                                                 Blog
                                             </Link>
                                         </li>
@@ -54,17 +54,17 @@ const Footer = () => {
                                     {/* TODO: setup page links */}
                                     <ul className="list-unstyled">
                                         <li className="my-2">
-                                            <Link to="#" className="text-muted">
+                                            <Link to="/about" className="text-muted">
                                                 About
                                             </Link>
                                         </li>
                                         <li className="my-2">
-                                            <Link to="#" className="text-muted">
+                                            <Link to="/career" className="text-muted">
                                                 Career
                                             </Link>
                                         </li>
                                         <li className="my-2">
-                                            <Link to="#" className="text-muted">
+                                            <Link to="/clients" className="text-muted">
                                                 Clients
                                             </Link>
                                         </li>
