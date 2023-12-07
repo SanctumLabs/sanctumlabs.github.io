@@ -31,11 +31,13 @@ declare type Tag = {
 declare type Image = {
     url: string;
     alt: string;
+    caption?: string;
 }
 
 declare type PostAuthor = {
     avatarUrl: string;
     name: string;
+    slug: string;
 }
 
 declare type Post = {
@@ -52,4 +54,9 @@ declare type Post = {
     };
     overlay?: string;
     groupAvatars?: string[];
+}
+
+declare type GalleryItemType = {
+    id?: number;
+    image: Image;
 }
