@@ -24,6 +24,7 @@ const posts: Post[] = [
         postedBy: {
             avatarUrl: avatar1,
             name: 'Emily Blunt',
+            slug: 'emily-blunt'
         },
         postedOn: {
             date: '11 Mar, 2020',
@@ -44,6 +45,7 @@ const posts: Post[] = [
         postedBy: {
             avatarUrl: avatar2,
             name: 'Greeva N',
+            slug: 'greeva-n'
         },
         postedOn: {
             date: '9 Mar, 2020',
@@ -64,6 +66,7 @@ const posts: Post[] = [
         postedBy: {
             avatarUrl: avatar2,
             name: 'Greeva N',
+            slug: 'greeva-n'
         },
         postedOn: {
             date: '11 Mar, 2020',
@@ -84,6 +87,8 @@ const posts: Post[] = [
         postedBy: {
             avatarUrl: avatar2,
             name: 'Greeva N',
+            slug: 'greeva-n'
+
         },
         postedOn: {
             date: '11 Mar, 2020',
@@ -104,6 +109,7 @@ const posts: Post[] = [
         postedBy: {
             avatarUrl: avatar2,
             name: 'Greeva N',
+            slug: 'greeva-n'
         },
         postedOn: {
             date: '11 Mar, 2020',
@@ -123,6 +129,7 @@ const posts: Post[] = [
         postedBy: {
             avatarUrl: avatar2,
             name: 'Greeva N',
+            slug: 'greeva-n'
         },
         postedOn: {
             date: '11 Mar, 2020',

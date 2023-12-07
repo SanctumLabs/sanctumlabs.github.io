@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
+import { AvatarGroup } from 'components/avatar';
 import classNames from 'classnames';
 import { BlogPostProps } from './types';
 
@@ -21,20 +22,8 @@ const BlogPostCard: FC<BlogPostProps> = ({ post }) => {
                             {post.title}
                         </Link>
                     </h2>
-
-                    <div className="avatar-group">
-                        {(post.groupAvatars || []).map((img, index) => {
-                            return (
-                                <Link to="#" className="avatar-group-item me-1" key={index.toString()}>
-                                    <img
-                                        src={img}
-                                        alt="avatar"
-                                        className="img-fluid avatar-xs rounded-circle avatar-border"
-                                    />
-                                </Link>
-                            );
-                        })}
-                    </div>
+{/* TODO: update group avatars */}
+                    {/* <AvatarGroup avatars={post.groupAvatars} /> */}
                 </div>
             </div>
         </Card>

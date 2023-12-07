@@ -40,6 +40,7 @@ const BlogPostHeader: FC<BlogPostHeaderProps> = ({ slug, title, tag, author, pub
 
                 <Row className="mt-4 align-items-center">
                     <Col xs="auto">
+                        {/* TODO: setup avatar authors to display */}
                         <div className="d-flex align-items-center">
                             <img
                                 className="me-2 avatar avatar-sm rounded-circle avatar-border"
