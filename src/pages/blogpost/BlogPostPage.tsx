@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { Popover } from 'react-bootstrap';
 import MainLayout from 'layouts/main';
 import BlogPostHeader from './BlogHeader';
 
@@ -10,35 +11,6 @@ import PostNavigation from './PostNavigation';
 // images
 import post1 from 'assets/images/blog/post1.jpg';
 import post2 from 'assets/images/blog/post2.jpg';
-import { Popover } from 'react-bootstrap';
-
-const prevPopover = (
-    <Popover id="prev-popover">
-        <Popover.Body>
-            <div className="d-flex align-items-center">
-                <img src={post1} width="60" className="me-3 rounded-sm" alt="thumb" />
-                <div className="flex-grow-1">
-                    <h6 className="fs-14 fw-semibold mt-0 mb-1">Introducing new blazzing fast user interface</h6>
-                    <span className="d-block fs-13 text-muted">by Emily Blunt</span>
-                </div>
-            </div>
-        </Popover.Body>
-    </Popover>
-);
-
-const nextPopover = (
-    <Popover id="prev-popover">
-        <Popover.Body>
-            <div className="d-flex align-items-center">
-                <img src={post2} width="60" className="me-3 rounded-sm" alt="thumb" />
-                <div className="flex-grow-1">
-                    <h6 className="fs-14 fw-semibold mt-0 mb-1">What you should know before...</h6>
-                    <span className="d-block fs-13 text-muted">by Emily Blunt</span>
-                </div>
-            </div>
-        </Popover.Body>
-    </Popover>
-);
 
 const BlogPostPage = () => {
     const { slug, id } = useParams();
@@ -104,11 +76,35 @@ const BlogPostPage = () => {
                 <PostNavigation
                     currentPostTitle={data.title}
                     authors={data.authors}
-                    nextPostPopover={nextPopover}
-                    prevPostPopover={prevPopover}
+                    nextPostPopover={
+                        <Popover id="next-popover">
+                            <Popover.Body>
+                                <div className="d-flex align-items-center">
+                                    <img src={post2} width="60" className="me-3 rounded-sm" alt="thumb" />
+                                    <div className="flex-grow-1">
+                                        <h6 className="fs-14 fw-semibold mt-0 mb-1">What you should know before...</h6>
+                                        <span className="d-block fs-13 text-muted">by Emily Blunt</span>
+                                    </div>
+                                </div>
+                            </Popover.Body>
+                        </Popover>
+                    }
+                    prevPostPopover={
+                        <Popover id="prev-popover">
+                            <Popover.Body>
+                                <div className="d-flex align-items-center">
+                                    <img src={post1} width="60" className="me-3 rounded-sm" alt="thumb" />
+                                    <div className="flex-grow-1">
+                                        <h6 className="fs-14 fw-semibold mt-0 mb-1">Introducing Blaze</h6>
+                                        <span className="d-block fs-13 text-muted">by Emily</span>
+                                    </div>
+                                </div>
+                            </Popover.Body>
+                        </Popover>
+                    }
                 />
 
-                {/* COMMENTS */}
+                {/* TODO: COMMENTS */}
             </>
         </MainLayout>
     );

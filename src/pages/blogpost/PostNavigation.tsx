@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Col, Container, OverlayTrigger, Row } from 'react-bootstrap';
+import { Col, Container, Row, OverlayTrigger } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 
