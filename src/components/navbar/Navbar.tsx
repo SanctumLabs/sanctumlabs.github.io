@@ -50,6 +50,7 @@ const NavBar = ({ isSticky, navClass, buttonClass, fixedWidth, hideSearch }: Nav
                     <Navbar.Brand href="/" className="logo">
                         <NavLink to="/">
                             <img src={logo} height="30" className="align-top logo-dark" alt="" />
+                            <img src={logo} height="30" className="align-top logo-light" alt="" />
                         </NavLink>
                     </Navbar.Brand>
 
