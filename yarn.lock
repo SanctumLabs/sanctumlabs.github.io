@@ -6041,47 +6041,47 @@ __metadata:
   linkType: hard
 
 "danger@npm:^11.3.0":
-  version: 11.3.0
-  resolution: "danger@npm:11.3.0"
+  version: 11.3.1
+  resolution: "danger@npm:11.3.1"
   dependencies:
-    "@gitbeaker/core": "npm:^35.8.1"
-    "@gitbeaker/node": "npm:^35.8.1"
-    "@octokit/rest": "npm:^18.12.0"
-    async-retry: "npm:1.2.3"
-    chalk: "npm:^2.3.0"
-    commander: "npm:^2.18.0"
-    core-js: "npm:^3.8.2"
-    debug: "npm:^4.1.1"
-    fast-json-patch: "npm:^3.0.0-1"
-    get-stdin: "npm:^6.0.0"
-    http-proxy-agent: "npm:^5.0.0"
-    https-proxy-agent: "npm:^5.0.1"
-    hyperlinker: "npm:^1.0.0"
-    json5: "npm:^2.1.0"
-    jsonpointer: "npm:^5.0.0"
-    jsonwebtoken: "npm:^9.0.0"
-    lodash.find: "npm:^4.6.0"
-    lodash.includes: "npm:^4.3.0"
-    lodash.isobject: "npm:^3.0.2"
-    lodash.keys: "npm:^4.0.8"
-    lodash.mapvalues: "npm:^4.6.0"
-    lodash.memoize: "npm:^4.1.2"
-    memfs-or-file-map-to-github-branch: "npm:^1.2.1"
-    micromatch: "npm:^4.0.4"
-    node-cleanup: "npm:^2.1.2"
-    node-fetch: "npm:^2.6.7"
-    override-require: "npm:^1.1.1"
-    p-limit: "npm:^2.1.0"
-    parse-diff: "npm:^0.7.0"
-    parse-git-config: "npm:^2.0.3"
-    parse-github-url: "npm:^1.0.2"
-    parse-link-header: "npm:^2.0.0"
-    pinpoint: "npm:^1.1.0"
-    prettyjson: "npm:^1.2.1"
-    readline-sync: "npm:^1.4.9"
-    regenerator-runtime: "npm:^0.13.9"
-    require-from-string: "npm:^2.0.2"
-    supports-hyperlinks: "npm:^1.0.1"
+    "@gitbeaker/core": ^35.8.1
+    "@gitbeaker/node": ^35.8.1
+    "@octokit/rest": ^18.12.0
+    async-retry: 1.2.3
+    chalk: ^2.3.0
+    commander: ^2.18.0
+    core-js: ^3.8.2
+    debug: ^4.1.1
+    fast-json-patch: ^3.0.0-1
+    get-stdin: ^6.0.0
+    http-proxy-agent: ^5.0.0
+    https-proxy-agent: ^5.0.1
+    hyperlinker: ^1.0.0
+    json5: ^2.1.0
+    jsonpointer: ^5.0.0
+    jsonwebtoken: ^9.0.0
+    lodash.find: ^4.6.0
+    lodash.includes: ^4.3.0
+    lodash.isobject: ^3.0.2
+    lodash.keys: ^4.0.8
+    lodash.mapvalues: ^4.6.0
+    lodash.memoize: ^4.1.2
+    memfs-or-file-map-to-github-branch: ^1.2.1
+    micromatch: ^4.0.4
+    node-cleanup: ^2.1.2
+    node-fetch: ^2.6.7
+    override-require: ^1.1.1
+    p-limit: ^2.1.0
+    parse-diff: ^0.7.0
+    parse-git-config: ^2.0.3
+    parse-github-url: ^1.0.2
+    parse-link-header: ^2.0.0
+    pinpoint: ^1.1.0
+    prettyjson: ^1.2.1
+    readline-sync: ^1.4.9
+    regenerator-runtime: ^0.13.9
+    require-from-string: ^2.0.2
+    supports-hyperlinks: ^1.0.1
   bin:
     danger: distribution/commands/danger.js
     danger-ci: distribution/commands/danger-ci.js
@@ -6092,7 +6092,7 @@ __metadata:
     danger-process: distribution/commands/danger-process.js
     danger-reset-status: distribution/commands/danger-reset-status.js
     danger-runner: distribution/commands/danger-runner.js
-  checksum: d691edee1f677e48b173ba163314c385968d5967824467d6ee2a5ab3076a543981b85a3bd281c23dbd953d67f11fb1d0d9c07f8af1d29fc2438c3d3e12d9799e
+  checksum: a8d99e6b864bdd3b6bdd8ebd66c9cb06fa9e61eac6295798ce4f6cb4c6d9e33484b38699dff6cd980ff5ead3e18967a4761f347ddcd16cdfe851f2d8e0601425
   languageName: node
   linkType: hard
 
