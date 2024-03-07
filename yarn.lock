@@ -3666,13 +3666,13 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:*, @types/react@npm:>=16.9.11, @types/react@npm:^18.2.37":
-  version: 18.2.60
-  resolution: "@types/react@npm:18.2.60"
+  version: 18.2.64
+  resolution: "@types/react@npm:18.2.64"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 4cd2000c4c5d93aec92bca9fce3a6050a6a20c5827409099a4cc9e68a259a937b2acc77aecbcea555eb99e295373903da17bc833e3f711442eec20e3c6cc5895
+  checksum: 1fd28dc5e5d191619e0b001485f428a070bad11f55683a212d3bd937bdc979335913f90f4ca4f0510871e5f35d8f46b169a23276fb048d06584623d3652cc0f3
   languageName: node
   linkType: hard
 
