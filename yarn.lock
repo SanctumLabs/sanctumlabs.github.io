@@ -3153,8 +3153,8 @@ __metadata:
   linkType: hard
 
 "@testing-library/jest-dom@npm:^6.1.4":
-  version: 6.4.2
-  resolution: "@testing-library/jest-dom@npm:6.4.2"
+  version: 6.4.5
+  resolution: "@testing-library/jest-dom@npm:6.4.5"
   dependencies:
     "@adobe/css-tools": "npm:^4.3.2"
     "@babel/runtime": "npm:^7.9.2"
@@ -3162,7 +3162,7 @@ __metadata:
     chalk: "npm:^3.0.0"
     css.escape: "npm:^1.5.1"
     dom-accessibility-api: "npm:^0.6.3"
-    lodash: "npm:^4.17.15"
+    lodash: "npm:^4.17.21"
     redent: "npm:^3.0.0"
   peerDependencies:
     "@jest/globals": ">= 28"
@@ -3181,7 +3181,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 8/631aeadbf4e738080ae095242cf1a29a0b4ee2f09c8bdd0d3f00a923707da64c1617e088ba9a961d098481afabdc1d19149fb7ef98edf15132348eb222f345ae
+  checksum: 10/6d9e6cc01ec9111ea631657d93596fa9505d294fdfc4172fbd750b8df6268f02d55900626423b195dac5b067a302557453894a5814bdf4e770dee37cdb1c0f2d
   languageName: node
   linkType: hard
 
@@ -10781,7 +10781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.15, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
+"lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 8/eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
