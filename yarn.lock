@@ -15037,9 +15037,9 @@ __metadata:
   linkType: hard
 
 "swiper@npm:^11.0.3":
-  version: 11.1.10
-  resolution: "swiper@npm:11.1.10"
-  checksum: 10/02021d1e4095ff54cbf705e0693405db7f866a998ca53d518594739da98be17e1189d8419b9efe9a6132d10c63b486f62b3012c76e18b19a58cbe4404772d964
+  version: 11.1.11
+  resolution: "swiper@npm:11.1.11"
+  checksum: 10/0a19a542b295dffd18eefec3a0da21b0135eb56e7db6a74ffeecb3dec0e12c4ab17dc663cff378e49217acea84208b97c26a44998ecda6dba4130edefa4cfad9
   languageName: node
   linkType: hard
 
