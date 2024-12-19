@@ -2996,9 +2996,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@restart/ui@npm:^1.9.0":
-  version: 1.9.1
-  resolution: "@restart/ui@npm:1.9.1"
+"@restart/ui@npm:^1.9.2":
+  version: 1.9.2
+  resolution: "@restart/ui@npm:1.9.2"
   dependencies:
     "@babel/runtime": "npm:^7.26.0"
     "@popperjs/core": "npm:^2.11.8"
@@ -3012,7 +3012,7 @@ __metadata:
   peerDependencies:
     react: ">=16.14.0"
     react-dom: ">=16.14.0"
-  checksum: 10/81f0f5742c298cf93a1ff8b941fd198d1413a13e34117f66e855eaa69a4479fedcd4ce2b1d6b330316d9ff881b87a0bbee03a096cee3ecdd99b774e6abcf0af2
+  checksum: 10/9993f1983d0f98216cfaa2bbd9818e1199590a2dccdf89ce99ae039031979a887ac8ac5647bab430e7d8a9f788c93c8f96888f0df7871a60884a2de824dead22
   languageName: node
   linkType: hard
 
@@ -3747,6 +3747,13 @@ __metadata:
   version: 15.7.10
   resolution: "@types/prop-types@npm:15.7.10"
   checksum: 10/39ecc2d9e439ed16b32937a08d98b84ed4a70f53bcd52c8564c0cd7a36fe1004ca83a1fb94b13c1b7a5c048760f06445c3c6a91a6972c8eff652c0b50c9424b1
+  languageName: node
+  linkType: hard
+
+"@types/prop-types@npm:^15.7.12":
+  version: 15.7.14
+  resolution: "@types/prop-types@npm:15.7.14"
+  checksum: 10/d0c5407b9ccc3dd5fae0ccf9b1007e7622ba5e6f1c18399b4f24dff33619d469da4b9fa918a374f19dc0d9fe6a013362aab0b844b606cfc10676efba3f5f736d
   languageName: node
   linkType: hard
 
@@ -13362,12 +13369,13 @@ __metadata:
   linkType: hard
 
 "react-bootstrap@npm:^2.9.1":
-  version: 2.10.6
-  resolution: "react-bootstrap@npm:2.10.6"
+  version: 2.10.7
+  resolution: "react-bootstrap@npm:2.10.7"
   dependencies:
     "@babel/runtime": "npm:^7.24.7"
     "@restart/hooks": "npm:^0.4.9"
-    "@restart/ui": "npm:^1.9.0"
+    "@restart/ui": "npm:^1.9.2"
+    "@types/prop-types": "npm:^15.7.12"
     "@types/react-transition-group": "npm:^4.4.6"
     classnames: "npm:^2.3.2"
     dom-helpers: "npm:^5.2.1"
@@ -13384,7 +13392,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10/81117e02480e6d5c6ea709ac1c1ea1d5f0b66474abb315599d270c7c056039849437a660cbf809f550c25a9e62c85a3711998f08535f090be40b4b6f26ab7eba
+  checksum: 10/9cf2bb2f31b9090580186118f052368fe45d6e116d62dae106036e4df0e9860ed2023b6e585e5aebd6d43e8c38afd5b5277f5706672bd8b10b14f8624533101f
   languageName: node
   linkType: hard
 
@@ -15727,11 +15735,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>":
   version: 5.7.2
-  resolution: "typescript@patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5adc0c"
+  resolution: "typescript@patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/ff27fc124bceb8969be722baa38af945b2505767cf794de3e2715e58f61b43780284060287d651fcbbdfb6f917f4653b20f4751991f17e0706db389b9bb3f75d
+  checksum: 10/d75ca10141afc64fd3474b41a8b082b640555bed388d237558aed64e5827ddadb48f90932c7f4205883f18f5bcab8b6a739a2cfac95855604b0dfeb34bc2f3eb
   languageName: node
   linkType: hard
 
