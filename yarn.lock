@@ -50,8 +50,8 @@ __metadata:
   linkType: hard
 
 "@apollo/client@npm:^3.8.7":
-  version: 3.12.9
-  resolution: "@apollo/client@npm:3.12.9"
+  version: 3.12.11
+  resolution: "@apollo/client@npm:3.12.11"
   dependencies:
     "@graphql-typed-document-node/core": "npm:^3.1.1"
     "@wry/caches": "npm:^1.0.0"
@@ -68,7 +68,7 @@ __metadata:
     zen-observable-ts: "npm:^1.2.5"
   peerDependencies:
     graphql: ^15.0.0 || ^16.0.0
-    graphql-ws: ^5.5.5
+    graphql-ws: ^5.5.5 || ^6.0.3
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc
     subscriptions-transport-ws: ^0.9.0 || ^0.11.0
@@ -81,7 +81,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: 10/88ea23a133ae0437687855b4e58f79dc1dfa70e8b95d5df70a372d5513a7eb18d5b71764e2ef79da07ea7553c80f810f5cefb4136da7e27ea7150dba844aac18
+  checksum: 10/0084fd708e17a4a6aa30085bd6547ec64f4e85adffbff12dc07a0505e83bee0a27c56d6139c0d6502289d08a58d1b80b370fc117bd8d267e2a77a6bc57b66287
   languageName: node
   linkType: hard
 
