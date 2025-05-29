@@ -8279,17 +8279,17 @@ __metadata:
   linkType: hard
 
 "google-map-react@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "google-map-react@npm:2.2.1"
+  version: 2.2.5
+  resolution: "google-map-react@npm:2.2.5"
   dependencies:
     "@googlemaps/js-api-loader": "npm:^1.13.8"
     "@mapbox/point-geometry": "npm:^0.1.0"
     eventemitter3: "npm:^4.0.4"
     prop-types: "npm:^15.7.2"
   peerDependencies:
-    react: ^16.0.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 10/3e0b8d5560056be2258541c1b0759e0cc4b80946daa5071ac6fb733b38184fb21089c8c75ab252e214c29b1dfea883c8c819003860d7c67ded7b6a432905ca94
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10/7cf20ff2016d23203d7884a6ca9066bb7e11b5a4d216acd7f5120ece6c9dbe9b97ed1ea775152eeca4ad2f2603a507739b10f170833bf2dab3df5e211eda11b8
   languageName: node
   linkType: hard
 
