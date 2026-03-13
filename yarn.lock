@@ -3710,20 +3710,20 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 25.3.3
-  resolution: "@types/node@npm:25.3.3"
+  version: 25.4.0
+  resolution: "@types/node@npm:25.4.0"
   dependencies:
     undici-types: ~7.18.0
-  checksum: 9186aae36f8ddb0b3630dba446e5c16e5f3e6c5e7a4708d117a394d3e3b6f41db2dd83a6127adf4567826776a732ca9e2561594667bce74bb18ea4d59ee1e06a
+  checksum: 793bf88ecb62ae3be0929c5348181680e95ae10bc94084a08097a6b87b7c511c77f8c191687bf6a75af4bd79c4fae727d1680d8f6d02f3f8c751c1baa7d8e507
   languageName: node
   linkType: hard
 
 "@types/node@npm:^20.9.0":
-  version: 20.19.35
-  resolution: "@types/node@npm:20.19.35"
+  version: 20.19.37
+  resolution: "@types/node@npm:20.19.37"
   dependencies:
     undici-types: ~6.21.0
-  checksum: 465aac31b208bd4248f64b05abd0218509c696c55f62ae000571427e357168650d4c484f4531c37ad3be2a75198ba13f9dda7a0c14c539b09cf52b529d7f0d66
+  checksum: b20eed0820bfcd7a3140aa833a4306dc29307cbd3606d3487a168822c17725adbc21ce45bb26e52371a8f7c2a4a3734c6e10086b0e3fccc595a4585572a40c62
   languageName: node
   linkType: hard
 
