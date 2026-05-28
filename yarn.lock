@@ -5491,12 +5491,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "chokidar@npm:4.0.0"
+"chokidar@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "chokidar@npm:5.0.0"
   dependencies:
-    readdirp: "npm:^4.0.1"
-  checksum: f528f5cf22135fcdbe2ee44a89de3ebff4f94db7e101c55e5d92169bd4b52ce5b97d3ee0b74fe4fb57a065d2f2efce82f8bc687751e56b0a1870e9fe201b1c99
+    readdirp: ^5.0.0
+  checksum: 48c0d510d84c228acae24dcf4418d55193ae0fd6cf2d114a3cf893ea68cca95f1876e1b02353a275b0b0b5f933f7c5b5bf126063211c0c8c30b213dd03328897
   languageName: node
   linkType: hard
 
@@ -13914,10 +13914,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readdirp@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "readdirp@npm:4.0.1"
-  checksum: b39747defe52922c2478874ffbb1fd0bececa7b3170466a5bc770795dd5296a309598990cbd809732079b2363e989d0008b8e91cfbac7b726f68c1947db2d31c
+"readdirp@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "readdirp@npm:5.0.0"
+  checksum: 3c8ddf1a08fa0adf8f14685a373dd205ada0f2de980e7e77f9846026f331acbc6035040ba204d22b368a0dc8eb7bee2d737fb19f398d73c716c510ce3b2e5583
   languageName: node
   linkType: hard
 
@@ -14459,11 +14459,11 @@ __metadata:
   linkType: hard
 
 "sass@npm:^1.69.5":
-  version: 1.99.0
-  resolution: "sass@npm:1.99.0"
+  version: 1.100.0
+  resolution: "sass@npm:1.100.0"
   dependencies:
     "@parcel/watcher": ^2.4.1
-    chokidar: ^4.0.0
+    chokidar: ^5.0.0
     immutable: ^5.1.5
     source-map-js: ">=0.6.2 <2.0.0"
   dependenciesMeta:
@@ -14471,7 +14471,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 8993e6ba4b7e1b52619bea90206ce0401586e233b6b81acbba7466c7b0596deaf0454ec1b783f86d33ba4d1c6394846f3dd55299cf370f5a0ebc69f2c4d9baf2
+  checksum: 4513474bd3a03cbc3e6eabf3ad8dd787d497d2083f5a30cc045114a016131192316180f017b58d590546558a2ced9ed4441baf41bc05bd6f3d5270f32eec4086
   languageName: node
   linkType: hard
 
